@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="flexBox" id="mainPageContainer">
-    <div class="texts numbers">Each Number is increased by the previous Number's value divided by 100. [UNIVERSAL] is increased by 0.1/s.</div>
+    <div class="texts numbers">Each Number is increased by the previous Number's value divided by 100.</div>
     <div class="texts numbers" id="number1">[UNIVERSAL NUMBER]: 1</div>
     <div class="texts numbers" id="number2">[Secondary Number]: 0</div>
     <div class="texts numbers" id="number3">[Tertiary Number]: 0</div>
@@ -26,7 +26,12 @@
     <div class="texts numbers" id="number8">[Eternal Number]: 0</div>
     <div class="texts numbers" id="number9">[gwa Number]: 0</div>
     <div class="texts numbers" id="number10">[Apex Number]: 0</div>
-    <button id="fullreset" onclick="fullReset()">Full Reset trole</button>
+    <div class="texts numbers" id="multi">Apexian Strength: You gain 1x more [UNIVERSAL]/s due to your amount of [Apex]!</div>
+    <div class="texts numbers" id="multi2">UNIVERSAL Strength: Apexian Strength is multiplied by 1x due to your [UNIVERSAL] gain!</div>
+    <div class="texts numbers" id="multi3">gwa's Blessing: [UNIVERSAL] gain is raised to ^1 AFTER Apexian Strength due to your [gwa]! (requires 100,000 gwa)</div>
+    <button id="fullreset" onclick="fullReset()">Full Reset</button>
+    <button class="ieb" onclick="exportSave()">Export Your Save</button>
+    <button class="ieb" onclick="importSave()">Import Your Save</button>
 </div>
 </body>
 </html>
