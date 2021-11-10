@@ -1,0 +1,27 @@
+html {
+    background-color: black;
+}
+#mainPageContainer{
+    flex-direction: column;
+}
+.flexBox {
+    display: flex;
+    align-items: center;
+    place-content:center
+}
+.texts{
+    color: gray;
+
+}
+.numbers{
+    margin-top: 2px;
+    font-family: DosisSemiBold;
+}
+#number1{
+    font-family: DosisExtraBold;
+}
+#fullreset{
+    margin-top: 20px;
+    border: 2px solid #545454;
+    background-color: #292929;
+}
