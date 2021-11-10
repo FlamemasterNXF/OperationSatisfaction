@@ -18,6 +18,7 @@ html {
     font-family: DosisSemiBold;
 }
 #number1{
+    margin-top: 5px;
     font-family: DosisExtraBold;
 }
 #fullreset{
